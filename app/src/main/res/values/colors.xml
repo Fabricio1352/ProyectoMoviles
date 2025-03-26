@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#ffbd59</color>
+    <color name="textColor">#000000</color>
+    <color name="buttonColor">#ffde59</color>
+    <color name="textButtonColor">#000000</color>
+    <color name="gobackButton">#ff3131</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
