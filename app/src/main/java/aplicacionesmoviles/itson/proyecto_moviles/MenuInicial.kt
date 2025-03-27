@@ -21,8 +21,8 @@ class MenuInicial : AppCompatActivity() {
         }
 
         val btnLogin = findViewById<Button>(R.id.btn_login)
-        btnRegister.setOnClickListener {
-            val intent = Intent(this, Registro::class.java)
+        btnLogin.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
 

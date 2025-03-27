@@ -2,16 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/backgroundColor"
-    android:padding="50dp"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp">
 
 
     <EditText
         android:id="@+id/et_nombre"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_edit_text"
@@ -20,63 +20,75 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/et_apellido"
+        android:id="@+id/et_usuario"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:hint="@string/et_apellido"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_edit_text"
+        android:hint="@string/et_usuario"
         android:padding="10dp"
-        android:textSize="18sp"
-        android:layout_marginBottom="20dp"/>
+        android:textSize="18sp" />
 
 
     <EditText
         android:id="@+id/et_correo"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:hint="@string/et_correo"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_edit_text"
+        android:hint="@string/et_mail"
         android:padding="10dp"
-        android:textSize="18sp"
-        android:layout_marginBottom="20dp"/>
+        android:textSize="18sp" />
 
 
     <EditText
         android:id="@+id/et_telefono"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:hint="@string/et_telefono"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_edit_text"
-        android:padding="10dp"
-        android:textSize="18sp"
+        android:hint="@string/et_telefono"
         android:inputType="phone"
-        android:layout_marginBottom="20dp"/>
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/et_password"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
 
     <Button
         android:id="@+id/btn_registrarme"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="@string/btn_registrarme"
-        android:textStyle="bold"
-        android:textSize="25sp"
-        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="#FFD700"
         android:fontFamily="sans-serif-medium"
-        android:layout_marginBottom="30dp"/>
+        android:text="@string/btn_registrarme"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_regresar"
-        android:layout_marginTop="20dp"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:text="@string/btn_regresar"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#E53935"
         android:fontFamily="sans-serif-medium"
-        android:layout_marginBottom="20dp"/>
+        android:text="@string/btn_regresar"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

@@ -4,10 +4,11 @@
     <string name="btn_iniciar">Iniciar Sesión</string>
     <string name="tv_slogan">Aplicación para manejar el inventario de tu empresa</string>
 
+    <string name="et_usuario">Usuario:</string>
     <string name="btn_registrarme">Registrarme</string>
     <string name="et_nombre">Nombre:</string>
-    <string name="et_apellido">Apellido:</string>
-    <string name="et_correo">Correo Electrónico:</string>
+    <string name="et_mail">Correo Electrónico:</string>
     <string name="et_telefono">Teléfono:</string>
     <string name="btn_regresar">Regresar</string>
+    <string name="et_password">Contraseña:</string>
 </resources>
