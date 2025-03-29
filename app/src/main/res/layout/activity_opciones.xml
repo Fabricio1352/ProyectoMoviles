@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Opciones">
+
+
+
+    <!--     header ____________________________________________________________________________________-->
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:background="@color/backgroundColor">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/bussiness_logo2"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+    <!--Cuerpo ____________________________________________________________________________________-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/backgroundColor">
+
+
+
+<!--Dos colmnas y dos filas, por eso 2 y 2, que esten distribuidos, crea cuadricula 2x2, el rowweight y colweight distribuye elementos, el img view tiene 0dp para que el gridlayout maneje el size-->
+<!--            <GridLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:columnCount="2"-->
+<!--                android:rowCount="2"-->
+<!--                android:background="@color/backgroundColor"-->
+<!--                android:padding="16dp"-->
+<!--                >-->
+
+                            <!-- Con esta propiedad va agarrar el total de la celda
+                             android:layout_rowWeight="1"-->
+                            <!--                android:layout_columnWeight="1"-->
+
+
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+
+                android:columnCount="2"
+                android:rowCount="2">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_marginBottom="70dp"
+                    android:layout_margin="8dp"
+
+                    android:src="@drawable/vercatalogo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opcion_vercatalogo"
+                    android:textSize="23sp"
+                    android:layout_row="0"
+                    android:layout_gravity="center"
+                    android:layout_column="1"
+                    android:layout_marginBottom="70dp"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginEnd="100dp"
+                    />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_margin="8dp"
+                    android:layout_marginBottom="70dp"
+
+                    android:src="@drawable/config"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opcion_configuracion"
+                    android:textSize="23sp"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_marginBottom="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="100dp"
+                    android:fontFamily="sans-serif-black"
+
+                    />
+
+            </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    <!--    Footer ____________________________________________________________________________________                 -->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/backgroundColor">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold|italic"
+                android:text="@string/footer"/>
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

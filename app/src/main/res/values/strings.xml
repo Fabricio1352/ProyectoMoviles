@@ -11,4 +11,7 @@
     <string name="et_telefono">Teléfono:</string>
     <string name="btn_regresar">Regresar</string>
     <string name="et_password">Contraseña:</string>
+    <string name="footer">Desarrollado por ITSON</string>
+    <string name="opcion_vercatalogo">Ver Catalogo</string>
+    <string name="opcion_configuracion">Configuracion</string>
 </resources>
