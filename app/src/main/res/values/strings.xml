@@ -14,4 +14,12 @@
     <string name="footer">Desarrollado por ITSON</string>
     <string name="opcion_vercatalogo">Ver Catalogo</string>
     <string name="opcion_configuracion">Configuracion</string>
+
+    <string name="tv_registro_usuario">Registro de Usuario</string>
+    <string name="tv_registro_producto">Registro de Producto</string>
+    <string name="btn_guardarProducto">Guardar Producto</string>
+    <string name="et_nombreProducto">Nombre del Producto: </string>
+    <string name="et_cantidad">Cantidad: </string>
+    <string name="sp_categoria">Categorias:</string>
+    <string name="et_descripcion">Descripcion: (Opcional)</string>
 </resources>
